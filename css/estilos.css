@@ -1,0 +1,61 @@
+
+    body
+    {
+        background-color: #008080;
+    }
+    .fonte1{
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:darkgreen;
+    }
+    .fonte2{
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:rgb(238, 238, 238);
+    }
+    
+    #area{
+        position: relative;
+        left: 50%;
+        top: 2em;
+        width: 360px;
+        height: 270px;
+    }
+
+    label{
+        font-weight: bold;
+        font-size: 12px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #area #formulario{
+        position: absolute;
+        display: block;
+    }
+
+    #formulario input.campo_nome{
+        background-color: grey;
+        position: absolute;
+        left: 96px;
+        top: 23px;
+        width: 250px;
+
+    }
+
+    #formulario input.campo_email{
+        background-color: grey;
+        position: absolute;
+        left: 96px;
+        top: 46px;
+        width: 250px;
+
+    }
+    #formulario input.campo_senha{
+        background-color: grey;
+        position: absolute;
+        left: 96px;
+        top: 70px;
+        width: 200px;
+
+    }
+
